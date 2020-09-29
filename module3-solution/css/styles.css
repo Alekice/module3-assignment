@@ -1,8 +1,81 @@
 body {
   font-size: 16px;
-  color: #fff;
+  color: #000;
   background-color: #dbffd6;
   font-family: 'Albertus MT', 'Times New Roman', Times, sans-serif;
 }
 
-/* HEADER */
+#header-nav {
+  background-color: #2f4f4f;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Albertus MT', 'Times New Roman', Times, sans-serif;
+  color: #fffff0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #fffff0;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #fffff0;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fffff0;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+h2 {
+  text-align: center;
+  color: #2f4f4f;
+  text-shadow: 1px 1px 1px #2f4f4f;
+  border: 1px solid #2f4f4f;
+  width: 200px; 
+  margin: 10px auto;
+}
+
+h3 {
+  text-align: center;
+  color: #fffff0;
+
+}
+
+div.details {
+  background-color: #2f4f4f;
+  margin: 10px auto;
+  padding: 5px 20px 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+#row {
+  padding: 0 10px 0;
+}
